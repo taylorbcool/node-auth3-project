@@ -42,7 +42,6 @@ const signToken = user => {
   const payload = {
     sub: 'logged in token',
     type: 'admin',
-    iat: Date.now()
   }
 
   const options = {
